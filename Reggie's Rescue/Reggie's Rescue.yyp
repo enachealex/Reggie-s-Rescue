@@ -1,5 +1,12 @@
 {
   "resources": [
+<<<<<<< HEAD
+    {"id":{"name":"corgiwalkright","path":"sprites/corgiwalkright/corgiwalkright.yy",},"order":1,},
+    {"id":{"name":"Objreggie","path":"objects/Objreggie/Objreggie.yy",},"order":0,},
+    {"id":{"name":"sprcorgiwalkdown","path":"sprites/sprcorgiwalkdown/sprcorgiwalkdown.yy",},"order":3,},
+    {"id":{"name":"sprcorgiwalkleft","path":"sprites/sprcorgiwalkleft/sprcorgiwalkleft.yy",},"order":2,},
+    {"id":{"name":"sprcorgiwalkup","path":"sprites/sprcorgiwalkup/sprcorgiwalkup.yy",},"order":0,},
+=======
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":3,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":2,},
@@ -8,6 +15,7 @@
     {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"order":1,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
+>>>>>>> 144248d7347c8f275097ae82567eaee2c6a96737
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -22,9 +30,7 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-  ],
+  "RoomOrder": [],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tile Sets.yy","order":2,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
@@ -45,13 +51,13 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.536",
+    "IDEVersion": "2.3.0.529",
   },
-  "resourceVersion": "1.4",
+  "resourceVersion": "1.3",
   "name": "Reggie's Rescue",
   "tags": [],
   "resourceType": "GMProject",
