@@ -5,9 +5,11 @@ walkUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
 walkDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 sprint = keyboard_check(vk_shift);
 // movement
-var move = walkRight - walkLeft || walkDown - walkUp;
+var moveH = walkRight - walkLeft;
+var moveV = walkDown - walkUp;
 
-hSpeed = move * walkspeed;
+hSpeed = moveH * walkspeed;
+vSpeed = moveV * walkspeed;
 
 // Horizontal Collision ///
 if (place_meeting(x+hSpeed, y, oHouse))
