@@ -4,6 +4,11 @@ walkLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
 walkUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
 walkDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 sprint = keyboard_check(vk_shift);
+bark = keyboard_check(vk_space);
+
+//
+if (walkRight || walkLeft || walkUp || walkDown) audio_play_sound(Walking,5,true);
+else if (!walkRight || !walkLeft || !walkUp || !walkDown) audio_stop_sound(Walking);
 // movement
 var moveH = walkRight - walkLeft;
 var moveV = walkDown - walkUp;
@@ -16,7 +21,7 @@ if (place_meeting(x+hSpeed, y, oHouse))
 {
 	while (!place_meeting(x+sign(hSpeed), y, oHouse))
 	{
-		x += sign(hSpeed)
+		x += sign(hSpeed);
 	}
 	hSpeed = 0;
 }
@@ -27,7 +32,7 @@ if (place_meeting(x, y+vSpeed, oHouse))
 {
 	while (!place_meeting(x, y+sign(vSpeed), oHouse))
 	{
-		y += sign(vSpeed)
+		y += sign(vSpeed);
 	}
 	vSpeed = 0;
 }
@@ -39,26 +44,33 @@ if (walkRight){
     image_speed = walkspeed / 3;
     sprite_index = corgiwalkright;
 }
+
 if (walkLeft){
     //x -= walkspeed;
     image_speed = walkspeed / 3;
     sprite_index = sprcorgiwalkleft;
 }
+
 if (walkUp){
     //y -= walkspeed;
     image_speed = walkspeed / 3;
     sprite_index = sprcorgiwalkup;
 }
+
 if (walkDown){
     //y += walkspeed;
     image_speed = walkspeed / 3;
     sprite_index = sprcorgiwalkdown;
 }
+
 if (keyboard_check(vk_nokey)) {
     image_speed = 0;
     image_index = 0;
 	walkspeed = 2;
 }
 
+if (bark) audio_play_sound(DogBark,10,false)
+
 if(sprint) walkspeed = 4;
 else if (!sprint) walkspeed = 2;
+
