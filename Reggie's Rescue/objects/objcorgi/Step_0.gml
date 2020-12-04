@@ -1,34 +1,62 @@
+//variables for controls/movement
 walkRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
 walkLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
 walkUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
 walkDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 sprint = keyboard_check(vk_shift);
+// movement
+var move = walkRight - walkLeft || walkDown - walkUp;
 
+hSpeed = move * walkspeed;
+
+// Horizontal Collision ///
+if (place_meeting(x+hSpeed, y, oHouse))
+{
+	while (!place_meeting(x+sign(hSpeed), y, oHouse))
+	{
+		x += sign(hSpeed)
+	}
+	hSpeed = 0;
+}
+x += hSpeed;
+
+// Vertical Collision ////
+if (place_meeting(x, y+vSpeed, oHouse))
+{
+	while (!place_meeting(x, y+sign(vSpeed), oHouse))
+	{
+		y += sign(vSpeed)
+	}
+	vSpeed = 0;
+}
+y += vSpeed;
+
+// Corgi Animation ///
 if (walkRight){
-    x += walkspeed;
+    //x += walkspeed;
     image_speed = walkspeed / 3;
     sprite_index = corgiwalkright;
 }
 if (walkLeft){
-    x -= walkspeed;
+    //x -= walkspeed;
     image_speed = walkspeed / 3;
     sprite_index = sprcorgiwalkleft;
 }
 if (walkUp){
-    y -= walkspeed;
+    //y -= walkspeed;
     image_speed = walkspeed / 3;
     sprite_index = sprcorgiwalkup;
 }
 if (walkDown){
-    y += walkspeed;
+    //y += walkspeed;
     image_speed = walkspeed / 3;
     sprite_index = sprcorgiwalkdown;
 }
 if (keyboard_check(vk_nokey)) {
     image_speed = 0;
     image_index = 0;
-	walkspeed = 3.5;
+	walkspeed = 2;
 }
-if(sprint) {
-	walkspeed = 7;
-}
+
+if(sprint) walkspeed = 4;
+else if (!sprint) walkspeed = 2;

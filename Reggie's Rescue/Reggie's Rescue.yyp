@@ -3,10 +3,10 @@
     {"id":{"name":"objcorgi","path":"objects/objcorgi/objcorgi.yy",},"order":5,},
     {"id":{"name":"sprcorgiwalkdown","path":"sprites/sprcorgiwalkdown/sprcorgiwalkdown.yy",},"order":5,},
     {"id":{"name":"sprcorgiwalkup","path":"sprites/sprcorgiwalkup/sprcorgiwalkup.yy",},"order":6,},
-    {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},"order":9,},
+    {"id":{"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},"order":9,},
     {"id":{"name":"corgiwalkright","path":"sprites/corgiwalkright/corgiwalkright.yy",},"order":8,},
     {"id":{"name":"sprcorgiwalkleft","path":"sprites/sprcorgiwalkleft/sprcorgiwalkleft.yy",},"order":7,},
-    {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":0,},
+    {"id":{"name":"oHouse","path":"objects/oHouse/oHouse.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
