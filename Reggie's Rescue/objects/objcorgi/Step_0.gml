@@ -7,8 +7,8 @@ sprint = keyboard_check(vk_shift);
 bark = keyboard_check(vk_space);
 
 //
-if (walkRight || walkLeft || walkUp || walkDown) audio_play_sound(Walking,5,true);
-else if (!walkRight || !walkLeft || !walkUp || !walkDown) audio_stop_sound(Walking);
+//if (walkRight || walkLeft || walkUp || walkDown) audio_play_sound(Walking,5,true);
+//else if (!walkRight || !walkLeft || !walkUp || !walkDown) audio_stop_sound(Walking);
 // movement
 var moveH = walkRight - walkLeft;
 var moveV = walkDown - walkUp;
