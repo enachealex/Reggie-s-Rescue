@@ -1,1 +1,1 @@
-audio_stop_sound(Walking);
+//audio_stop_sound(Walking);
