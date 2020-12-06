@@ -14,32 +14,30 @@ var moveH = walkRight - walkLeft;
 var moveV = walkDown - walkUp;
 
 
-hSpeed = moveH * walkspeed;
-vSpeed = moveV * walkspeed;
+hspeed = moveH * walkspeed;
+vspeed = moveV * walkspeed;
 
 
 
 // Horizontal Collision ///
-if (place_meeting(x+hSpeed, y, oHouse))
+if (place_meeting(x+hspeed, y, oHouse))
 {
-	while (!place_meeting(x+sign(hSpeed), y, oHouse))
-	{
-		x += sign(hSpeed);
-	}
-	hSpeed = 0;
+	while (!place_meeting(x+sign(hspeed), y, oHouse))
+		x += sign(hspeed);
+		
+	hspeed = 0;
 }
-x += hSpeed;
+x += hspeed;
 
 // Vertical Collision ////
-if (place_meeting(x, y+vSpeed, oHouse))
+if (place_meeting(x, y+vspeed, oHouse))
 {
-	while (!place_meeting(x, y+sign(vSpeed), oHouse))
-	{
-		y += sign(vSpeed);
-	}
-	vSpeed = 0;
+	while (!place_meeting(x, y+sign(vspeed), oHouse))
+		y += sign(vspeed);
+		
+	vspeed = 0;
 }
-y += vSpeed;
+y += vspeed;
 
 // Corgi Animation ///
 if (walkRight){
@@ -77,29 +75,11 @@ if (bark) audio_play_sound(DogBark,10,false)
 if(sprint) walkspeed = 4;
 else if (!sprint) walkspeed = 2;
 
-if keyboard_check(vk_right)
-{
-    hspeed = 1;
-}
-else if keyboard_check(vk_left)
-{
-    hspeed = -1;
-}
 
-else
-hspeed = 0;
-
-if(hspeed > 0)
+// Sound of Reggie walking ///////////////
+if(hspeed > 0 || vspeed > 0 || hspeed < 0 || vspeed < 0)
 {
-if !audio_is_playing(Walking)
-audio_play_sound(Walking, 1, true);
+	if !audio_is_playing(Walking)
+		audio_play_sound(Walking, 1, true);
 } 
-else if(hspeed < 0)
-{
-if !audio_is_playing(Walking)   
-audio_play_sound(Walking, 1, true);
-}
- else
-{
-audio_stop_sound(Walking);
-}	
+else audio_stop_sound(Walking);
