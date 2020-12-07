@@ -108,5 +108,7 @@ if(mouse_check_button(mb_left)) && (cooldown < 1)
 	cooldown = 5;
 }
 
+//Mariya code
+
 cooldown -= 1;
 
