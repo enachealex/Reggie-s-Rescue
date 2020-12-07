@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f7ac3d46-616f-46c1-8d25-594c8ee6d28b","path":"sprites/spr_bark/spr_bark.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f7ac3d46-616f-46c1-8d25-594c8ee6d28b","path":"sprites/spr_bark/spr_bark.yy",},"LayerId":{"name":"a9e524cc-aee1-47c8-b95d-25734c5aaa45","path":"sprites/spr_bark/spr_bark.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bark","path":"sprites/spr_bark/spr_bark.yy",},"resourceVersion":"1.0","name":"f7ac3d46-616f-46c1-8d25-594c8ee6d28b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ccbbdf94-0e00-4419-8ae7-c3b1c9314bcf","path":"sprites/spr_bark/spr_bark.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ccbbdf94-0e00-4419-8ae7-c3b1c9314bcf","path":"sprites/spr_bark/spr_bark.yy",},"LayerId":{"name":"440f92ae-bd6f-4d7a-a366-1e2395c759bc","path":"sprites/spr_bark/spr_bark.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bark","path":"sprites/spr_bark/spr_bark.yy",},"resourceVersion":"1.0","name":"ccbbdf94-0e00-4419-8ae7-c3b1c9314bcf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_bark","path":"sprites/spr_bark/spr_bark.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ff450a83-c3af-4312-ba6a-bd7517eadb61","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7ac3d46-616f-46c1-8d25-594c8ee6d28b","path":"sprites/spr_bark/spr_bark.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"37344bf5-cb6f-498d-9543-e405497d3ec7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ccbbdf94-0e00-4419-8ae7-c3b1c9314bcf","path":"sprites/spr_bark/spr_bark.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a9e524cc-aee1-47c8-b95d-25734c5aaa45","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"440f92ae-bd6f-4d7a-a366-1e2395c759bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Reggie's Rescue",
