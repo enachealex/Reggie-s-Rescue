@@ -2,8 +2,8 @@
   "isDnD": true,
   "isCompatibility": false,
   "parent": {
-    "name": "Reggie's Rescue",
-    "path": "Reggie's Rescue.yyp",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "Script1",
