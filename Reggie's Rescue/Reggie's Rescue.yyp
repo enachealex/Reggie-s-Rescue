@@ -1,17 +1,10 @@
 {
   "resources": [
     {"id":{"name":"objcorgi","path":"objects/objcorgi/objcorgi.yy",},"order":5,},
-    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"sprcorgiwalkdown","path":"sprites/sprcorgiwalkdown/sprcorgiwalkdown.yy",},"order":5,},
     {"id":{"name":"NatureStuff","path":"sounds/NatureStuff/NatureStuff.yy",},"order":3,},
-<<<<<<< Updated upstream
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":16,},
-=======
-    {"id":{"name":"SoundMenuSwitch","path":"sounds/SoundMenuSwitch/SoundMenuSwitch.yy",},"order":4,},
->>>>>>> Stashed changes
     {"id":{"name":"sprcorgiwalkup","path":"sprites/sprcorgiwalkup/sprcorgiwalkup.yy",},"order":6,},
-    {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},"order":7,},
-    {"id":{"name":"FontMain","path":"fonts/FontMain/FontMain.yy",},"order":0,},
     {"id":{"name":"Walking","path":"sounds/Walking/Walking.yy",},"order":1,},
     {"id":{"name":"DogBark","path":"sounds/DogBark/DogBark.yy",},"order":0,},
     {"id":{"name":"BirdChirp","path":"sounds/BirdChirp/BirdChirp.yy",},"order":2,},
@@ -35,7 +28,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
