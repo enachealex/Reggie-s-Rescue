@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Reggie's Rescue",
+    "path": "Reggie's Rescue.yyp",
   },
   "resourceVersion": "1.0",
   "name": "obj_bark",
