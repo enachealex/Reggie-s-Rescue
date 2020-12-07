@@ -7,3 +7,5 @@ image_speed = 0;
 walkspeed = 2;
 hspeed = 0;
 vspeed = 0;
+
+cooldown = 0;

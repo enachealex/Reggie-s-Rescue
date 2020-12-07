@@ -99,3 +99,14 @@ if(hspeed > 0 || vspeed > 0 || hspeed < 0 || vspeed < 0)
 		audio_play_sound(Walking, 1, true);
 } 
 else audio_stop_sound(Walking);
+
+//Mariya code
+//Shoot
+if(mouse_check_button(mb_left)) && (cooldown < 1)
+{
+	instance_create_layer(x, y, "BulletsLayer", obj_bark)
+	cooldown = 5;
+}
+
+cooldown -= 1;
+
