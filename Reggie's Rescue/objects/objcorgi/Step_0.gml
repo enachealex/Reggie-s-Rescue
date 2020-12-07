@@ -4,7 +4,13 @@ walkLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
 walkUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
 walkDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 sprint = keyboard_check(vk_shift);
-bark = keyboard_check(vk_space);
+bark = keyboard_check(vk_alt)
+	&& audio_play_sound(DogBark,10,false) 
+	&& audio_sound_pitch(DogBark, random_range(0.9, 1.2));
+pooping = keyboard_check(vk_space) 
+	   && audio_play_sound(Pooping, 7, false) 
+	   && audio_sound_pitch(Pooping, random_range(0.7, 1.2));
+
 
 //
 //if (walkRight || walkLeft || walkUp || walkDown) audio_play_sound(Walking,5,false);
@@ -70,7 +76,29 @@ if (keyboard_check(vk_nokey)) {
 	walkspeed = 2;
 }
 
-if (bark) audio_play_sound(DogBark,10,false)
+if (bark) //&& (firingdelay < 0)
+{
+	//firingdelay -= 1;
+	with (bark)
+	{
+		//firingdelay = 50;
+		direction = other.image_angle;
+		image_angle = direction;
+	}
+	speed = 1;
+	
+}
+
+if (pooping) && (firingdelay < 0)
+{
+	speed = 0;
+	firingdelay -= 1;
+	//with (instance_create_layer(x,y,"Poop", oPoop))
+	//{
+	//	firingdelay = 50;
+	//	speed = 1;
+	//}
+}
 
 if(sprint) walkspeed = 4;
 else if (!sprint) walkspeed = 2;

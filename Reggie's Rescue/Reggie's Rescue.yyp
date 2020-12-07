@@ -6,6 +6,7 @@
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":16,},
     {"id":{"name":"sprcorgiwalkup","path":"sprites/sprcorgiwalkup/sprcorgiwalkup.yy",},"order":6,},
     {"id":{"name":"Walking","path":"sounds/Walking/Walking.yy",},"order":1,},
+    {"id":{"name":"Pooping","path":"sounds/Pooping/Pooping.yy",},"order":4,},
     {"id":{"name":"DogBark","path":"sounds/DogBark/DogBark.yy",},"order":0,},
     {"id":{"name":"BirdChirp","path":"sounds/BirdChirp/BirdChirp.yy",},"order":2,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":15,},
