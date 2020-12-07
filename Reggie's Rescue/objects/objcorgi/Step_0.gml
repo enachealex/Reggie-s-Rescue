@@ -4,7 +4,7 @@ walkLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
 walkUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
 walkDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 sprint = keyboard_check(vk_shift);
-bark = keyboard_check(vk_alt);
+bark = mouse_check_button(mb_left);
 pooping = keyboard_check(vk_space);
 
 
@@ -85,6 +85,13 @@ if(bark)
 	audio_sound_pitch(DogBark, random_range(1.0, 1.1));
 	if !audio_is_playing(DogBark)
 		audio_play_sound(DogBark, 1, true);
+	
+	if (cooldown < 1)
+	{
+		instance_create_layer(x, y, "BulletsLayer", obj_bark)
+		cooldown = 5;
+	}
+	cooldown -= 1;
 } 
 else audio_stop_sound(DogBark);
 
@@ -102,11 +109,7 @@ else audio_stop_sound(Walking);
 
 //Mariya code
 //Shoot
-if(mouse_check_button(mb_left)) && (cooldown < 1)
-{
-	instance_create_layer(x, y, "BulletsLayer", obj_bark)
-	cooldown = 5;
-}
 
-cooldown -= 1;
+
+
 
