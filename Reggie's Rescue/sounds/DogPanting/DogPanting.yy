@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "SoundMenuSwitch.mp3",
-  "duration": 2.147,
+  "soundFile": "DogPanting.wav",
+  "duration": 8.735726,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SoundMenuSwitch",
+  "name": "DogPanting",
   "tags": [],
   "resourceType": "GMSound",
 }
