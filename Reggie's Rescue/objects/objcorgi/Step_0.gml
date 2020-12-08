@@ -109,7 +109,7 @@ else audio_stop_sound(Walking);
 
 //Mariya code
 //Shoot
-if(mouse_check_button(mb_left)) && (cooldown < 1) || pooping && (cooldown < 1)
+if(mouse_check_button(mb_left)) && (cooldown < 1)
 {
 	instance_create_layer(x, y, "BulletsLayer", obj_bark)
 	cooldown = 5;
@@ -118,6 +118,4 @@ if(mouse_check_button(mb_left)) && (cooldown < 1) || pooping && (cooldown < 1)
 //Mariya code
 
 cooldown -= 1;
-
-
 
