@@ -5,6 +5,7 @@ if (instance_exists(objcorgi))
 image_angle = direction;
 
 if (hp <=0 ) instance_destroy();
+<<<<<<< HEAD
 
 // Horizontal Collision ///
 if (place_meeting(x+hspeed, y, oHouse))
@@ -26,3 +27,5 @@ if (place_meeting(x, y+vspeed, oHouse))
 }
 y += vspeed;
 
+=======
+>>>>>>> parent of db30abd... Collisions
