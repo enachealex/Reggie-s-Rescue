@@ -6,6 +6,7 @@ walkDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 sprint = keyboard_check(vk_shift);
 bark = keyboard_check(vk_alt);
 pooping = keyboard_check(vk_space);
+poop_cooldown = 0;
 
 
 //
@@ -74,6 +75,12 @@ if (keyboard_check(vk_nokey)) {
 
 if(pooping)
 {
+	
+		instance_create_layer(x, y, "BulletsLayer", obj_poop);
+		
+	
+	
+	
 	if !audio_is_playing(Pooping)
 		audio_play_sound(Pooping, 1, true);
 } 
