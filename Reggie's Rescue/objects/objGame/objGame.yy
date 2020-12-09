@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Sequences/Objects.yy",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "objGame",
