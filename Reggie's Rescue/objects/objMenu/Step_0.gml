@@ -13,8 +13,8 @@ repeat(buttons){
 }
 
 if(menu_index != last_selected) {
-	part_particles_create(particle_effects, menu_x, menu_y + button_h/2 +  
-	(button_h + button_padding) * menu_index, box_flash, 1);
+	part_particles_create(particle_effects, menu_x, menu_y + button_h/2 +  (button_h + button_padding) * menu_index, box_flash, 1);
 	audio_play_sound(SoundMenuSwitch,1,false);
+
 }
 last_selected = menu_index;

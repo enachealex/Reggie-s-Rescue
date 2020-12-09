@@ -1,1 +1,0 @@
-audio_play_sound(DogPanting, 0, true);

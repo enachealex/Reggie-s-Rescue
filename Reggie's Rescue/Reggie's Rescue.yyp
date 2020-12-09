@@ -1,32 +1,15 @@
 {
   "resources": [
-<<<<<<< HEAD
     {"id":{"name":"objcorgi","path":"objects/objcorgi/objcorgi.yy",},"order":0,},
     {"id":{"name":"sprcorgiwalkdown","path":"sprites/sprcorgiwalkdown/sprcorgiwalkdown.yy",},"order":5,},
     {"id":{"name":"NatureStuff","path":"sounds/NatureStuff/NatureStuff.yy",},"order":3,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":16,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":14,},
     {"id":{"name":"sprcorgiwalkup","path":"sprites/sprcorgiwalkup/sprcorgiwalkup.yy",},"order":6,},
-=======
-    {"id":{"name":"SoundMenuSwitch","path":"sounds/SoundMenuSwitch/SoundMenuSwitch.yy",},"order":5,},
-    {"id":{"name":"objcorgi","path":"objects/objcorgi/objcorgi.yy",},"order":0,},
-    {"id":{"name":"sprcorgiwalkdown","path":"sprites/sprcorgiwalkdown/sprcorgiwalkdown.yy",},"order":0,},
-    {"id":{"name":"NatureStuff","path":"sounds/NatureStuff/NatureStuff.yy",},"order":3,},
-    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":6,},
-    {"id":{"name":"DogPanting","path":"sounds/DogPanting/DogPanting.yy",},"order":7,},
-    {"id":{"name":"obj_squirrel","path":"objects/obj_squirrel/obj_squirrel.yy",},"order":2,},
-    {"id":{"name":"sprcorgiwalkup","path":"sprites/sprcorgiwalkup/sprcorgiwalkup.yy",},"order":1,},
-    {"id":{"name":"spr_squirrel","path":"sprites/spr_squirrel/spr_squirrel.yy",},"order":5,},
->>>>>>> e46eae9aaad15d72186e5e2aff9a26323a8f976e
     {"id":{"name":"Walking","path":"sounds/Walking/Walking.yy",},"order":1,},
-    {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":5,},
-    {"id":{"name":"FontMain","path":"fonts/FontMain/FontMain.yy",},"order":0,},
-    {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},"order":4,},
     {"id":{"name":"Pooping","path":"sounds/Pooping/Pooping.yy",},"order":4,},
     {"id":{"name":"DogBark","path":"sounds/DogBark/DogBark.yy",},"order":0,},
     {"id":{"name":"BirdChirp","path":"sounds/BirdChirp/BirdChirp.yy",},"order":2,},
-<<<<<<< HEAD
     {"id":{"name":"obj_bark","path":"objects/obj_bark/obj_bark.yy",},"order":18,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":13,},
     {"id":{"name":"NeighborhoodSpr","path":"sprites/NeighborhoodSpr/NeighborhoodSpr.yy",},"order":10,},
@@ -40,20 +23,6 @@
     {"id":{"name":"neighborhood","path":"rooms/neighborhood/neighborhood.yy",},"order":1,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
-=======
-    {"id":{"name":"obj_bark","path":"objects/obj_bark/obj_bark.yy",},"order":7,},
-    {"id":{"name":"oCam","path":"objects/oCam/oCam.yy",},"order":8,},
-    {"id":{"name":"TitleMusic","path":"sounds/TitleMusic/TitleMusic.yy",},"order":6,},
-    {"id":{"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},"order":4,},
-    {"id":{"name":"spr_bark","path":"sprites/spr_bark/spr_bark.yy",},"order":7,},
-    {"id":{"name":"spr_poop","path":"sprites/spr_poop/spr_poop.yy",},"order":6,},
-    {"id":{"name":"corgiwalkright","path":"sprites/corgiwalkright/corgiwalkright.yy",},"order":3,},
-    {"id":{"name":"obj_poop","path":"objects/obj_poop/obj_poop.yy",},"order":3,},
-    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":8,},
-    {"id":{"name":"sprcorgiwalkleft","path":"sprites/sprcorgiwalkleft/sprcorgiwalkleft.yy",},"order":2,},
-    {"id":{"name":"oHouse","path":"objects/oHouse/oHouse.yy",},"order":1,},
-    {"id":{"name":"Game","path":"rooms/Game/Game.yy",},"order":0,},
->>>>>>> e46eae9aaad15d72186e5e2aff9a26323a8f976e
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -68,7 +37,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-<<<<<<< HEAD
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"neighborhood","path":"rooms/neighborhood/neighborhood.yy",},},
   ],
@@ -83,22 +51,6 @@
     {"folderPath":"folders/Timelines.yy","order":6,"resourceVersion":"1.0","name":"Timelines","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects.yy","order":7,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Rooms.yy","order":3,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
-=======
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
-  ],
-  "Folders": [
-    {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Tile Sets.yy","order":1,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sounds.yy","order":2,"resourceVersion":"1.0","name":"Sounds","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Paths.yy","order":3,"resourceVersion":"1.0","name":"Paths","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts.yy","order":4,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Shaders.yy","order":5,"resourceVersion":"1.0","name":"Shaders","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Fonts.yy","order":6,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Timelines.yy","order":7,"resourceVersion":"1.0","name":"Timelines","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects.yy","order":13,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms.yy","order":8,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
->>>>>>> e46eae9aaad15d72186e5e2aff9a26323a8f976e
     {"folderPath":"folders/Sequences.yy","order":9,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Animation Curves.yy","order":10,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":11,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
