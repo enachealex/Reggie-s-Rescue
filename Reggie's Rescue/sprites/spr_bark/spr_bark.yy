@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"440f92ae-bd6f-4d7a-a366-1e2395c759bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Reggie's Rescue",
-    "path": "Reggie's Rescue.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bark",
