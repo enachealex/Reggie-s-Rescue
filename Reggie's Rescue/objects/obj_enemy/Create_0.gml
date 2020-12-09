@@ -1,4 +1,4 @@
-hp = 4;
+hp = 8;
 spd =0.5;
 
 hspeed = 0;
