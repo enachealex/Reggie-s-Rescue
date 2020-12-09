@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7e90539c-1fef-4292-bf93-9af028073e0f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Reggie's Rescue",
-    "path": "Reggie's Rescue.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemy",

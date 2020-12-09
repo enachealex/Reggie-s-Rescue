@@ -4,8 +4,7 @@ audio_play_sound(BirdChirp,0,true);
 
 firingdelay = 0;
 image_speed = 0;
-walkspeed = 2;
+walkspeed = 1;
 hspeed = 0;
 vspeed = 0;
-
 cooldown = 0;
