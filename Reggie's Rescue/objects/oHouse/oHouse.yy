@@ -4,7 +4,7 @@
     "path": "sprites/sHouse/sHouse.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
