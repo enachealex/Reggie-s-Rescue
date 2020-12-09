@@ -10,6 +10,7 @@
     {"id":{"name":"DogPanting","path":"sounds/DogPanting/DogPanting.yy",},"order":7,},
     {"id":{"name":"obj_squirrel","path":"objects/obj_squirrel/obj_squirrel.yy",},"order":2,},
     {"id":{"name":"sprcorgiwalkup","path":"sprites/sprcorgiwalkup/sprcorgiwalkup.yy",},"order":1,},
+    {"id":{"name":"TitleScreen","path":"sprites/TitleScreen/TitleScreen.yy",},"order":10,},
     {"id":{"name":"spr_squirrel","path":"sprites/spr_squirrel/spr_squirrel.yy",},"order":5,},
     {"id":{"name":"Walking","path":"sounds/Walking/Walking.yy",},"order":1,},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":5,},
